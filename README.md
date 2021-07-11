@@ -281,6 +281,13 @@ Use the token you previously generated. If you no longer have the token and did 
 ✅  **Step 7b:** Configure Environment Variables and Install Dependencies
 
 1. Create `.env` file
+```ini
+ASTRA_DB_ADMIN_TOKEN={ your_token }
+ASTRA_DB_APPLICATION_TOKEN={ your application token }
+ASTRA_DB_ID={ id }
+ASTRA_DB_REGION={ data bas region }
+ASTRA_DB_KEYSPACE={ keyspace }
+```
 
 In the repository directory run the following command  to set up your Astra environment.  Note that this does require Node 15 and NPM 7 to work.  You can install a node version manager like `nvm` or `n` to use multiple versions on your system.
 ```bash
